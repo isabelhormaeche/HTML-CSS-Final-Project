@@ -1,0 +1,149 @@
+/* BREAKPOINT */
+
+/* When the screen is below 615 pixels wide apply these styles: */
+
+@media (max-width: 615px) {
+
+    /* ------------------------HEATHER-WRAPPER start here  */
+    
+    .header-wrapper {
+    flex-direction: column;
+    height: 100%;
+    }
+    
+    .header-wrapper > .navigation-wrapper {
+    flex-direction: column;
+    height: 100%;
+    }
+    
+    .header-wrapper > .navigation-wrapper  > .logo-wrapper > .logo {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    }
+    
+    .header-wrapper > .navigation-wrapper  > .explore-links-wrapper {
+    width: 65%;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    
+    }
+    .header-wrapper > .navigation-wrapper > .spark-wrapper {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    }
+    
+    .header-wrapper > .navigation-buttons-wrapper {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+    }
+    
+    .header-wrapper > .navigation-wrapper > .explore-links-wrapper > .nav-link {
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    width: 100%;
+    }
+    
+    .header-wrapper > .navigation-buttons-wrapper {
+    margin-top: 25px;
+    }
+
+
+
+    /*------------------- ---PAGE-CONTAINER (CONTENT + EXAMPLE Image ) start here  */
+
+    .page-container > {
+    height: auto; 
+    width: 100%;
+   /* FLEX-DIRECTION */
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    } 
+
+    
+    /* CONTENT-WRAPPER start here */
+    
+    .page-container > .content-wrapper {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    }
+
+    
+    /* Two paragrapahs  */
+  
+    .page-container > .content-wrapper > .paragraphs-wrapper > .paragraph1 {
+    font-size: 1.5em;
+    }
+        
+    .page-container > .content-wrapper > .paragraphs-wrapper > .paragraph2 {
+    font-size: 1.2em;
+    } 
+        
+
+    /* Two buttons */
+        
+    .page-container > .content-wrapper > .buttons-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    }
+        
+            /* "SIGN UP FOR FREE" Button */
+        
+    .page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper > .sign-up-free {
+    font-size: 1em;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 15px;
+    }
+  
+             /* "LEARN MORE" Button */
+  
+    .page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper > .learn-more {
+    background-color: #000000;
+    font-size: 1em;
+    width: 109px;
+    height: 40px;
+    }
+
+    /* CONTENT-WRAPPER end here */
+
+
+
+    /* CODEPEN -EXAMPLE-WRAPPER start here */
+
+/* LINK - "This is CodePen Projects!"" */
+    
+ .page-container > .codepen-example-wrapper > .codepen-link-wrapper {
+
+    width: 100%;
+    height: 50px;
+    padding-bottom: 250px ;
+    padding-left: 30px;
+    color: #ffffff;
+}
+
+.page-container > .codepen-example-wrapper > .codepen-link-wrapper > .codepen-link {
+width: 100%;
+height: auto;
+}
+
+
+
+/*-------------------------------------- FOOTER- WRAPPER  */
+    
+.footer-wrapper > .codepen-for-wrapper {
+width: 100%;
+height: auto;
+}
+
+.footer-wrapper > .codepen-for-wrapper a > .bold {
+width: 100%;
+height: auto;
+font-size: 1em;
+}
+
+}

@@ -1,0 +1,174 @@
+.header-wrapper {
+    height: 75px;
+    padding-left: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Header - Navigation bar - Left side - LOGO + EXPLORE tag + LINKS + SPARK with chevron */
+
+.header-wrapper > .navigation-wrapper { 
+    width: 610px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+    /* CodePen LOGO */
+
+.header-wrapper > .navigation-wrapper > .logo-wrapper { 
+    width: 200px;
+    height: 100%;
+ }
+ 
+.header-wrapper > .navigation-wrapper > .logo-wrapper { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+ 
+.header-wrapper > .navigation-wrapper > .logo-wrapper > .logo > img { 
+    height: 28px; 
+    width:auto;
+    
+}
+
+/* Header - NAvigation bar - Left side- "EXPLORE tag" + LINKS */
+
+.header-wrapper > .navigation-wrapper > .explore-links-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2px;
+    justify-content: left;
+    align-items: center;
+    width: 275px;
+}
+
+.header-wrapper > .navigation-wrapper > .explore-links-wrapper > .explore {
+    font-size: .9em;
+    font-weight: 600;
+    color: rgb(235, 235, 32); 
+    text-transform: uppercase;
+ }
+
+.header-wrapper > .navigation-wrapper > .explore-links-wrapper > .links-wrapper {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper > .navigation-wrapper > .explore-links-wrapper > .links-wrapper a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+
+/* Header - Navigation bar - Left side - "SPARK" with false down chevron icon*/
+
+.header-wrapper > .navigation-wrapper > .spark-wrapper {
+    width: 60px;
+    height: 36px;
+    color: rgb(155, 155, 154);
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header-wrapper > .navigation-wrapper > .spark-wrapper > .spark-chevron-icon i {
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.header-wrapper > .navigation-wrapper > .spark-wrapper > .spark-chevron-icon > i:focus {
+    outline: none;
+}
+
+.header-wrapper > .navigation-wrapper > .spark-wrapper > .spark-chevron-icon > i:hover {
+    background-color: transparent;
+    color: #47ce72;
+}
+
+
+/* Header - Navigation bar - Right side BUTTONS:  "Create" / "Log In" / "Search icon" "Sign Up" */
+
+.header-wrapper > .navigation-buttons-wrapper {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper > .navigation-buttons-wrapper > .nav-btn-user {
+    width: 100px;
+    height: 48px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.1em;
+    background-color: rgb(55, 56, 63);
+    border: none;
+    border-radius: 3px;
+}
+
+
+/* "CREATE" button + chevron */
+
+.header-wrapper > .navigation-buttons-wrapper > .nav-btn-user > .nav-btn-chevron {
+    padding-left: 8px;
+    padding-top: 3px;
+    align-self: center;
+    font-size: 1em;
+    color: rgb(71, 206, 114);
+ }
+
+
+/* "Search LENS" button icon */
+
+.header-wrapper > .navigation-buttons-wrapper > .nav-btn-search {
+    width: 50px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #70768f; */
+    color: #70768f;
+    font-weight: 500;
+    font-size: 2em;
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+}
+/* GREY COLOR #7A7C8C color: rgb(122, 124, 140); */
+
+/* CodePen website  GREY COLOR - "SEARCH LENS icon" 228.39deg 12.25% 50.39%; 112 118 143 #70768f */
+
+/* :HOVER-COLOR-CHANGE of Header-Navigation bar-BUTTONS: "Create" / "Log In" / "Sign Up" */
+.header-wrapper > .navigation-buttons-wrapper > .nav-btn-user:focus {
+    outline: none;
+}
+
+.header-wrapper > .navigation-buttons-wrapper > .nav-btn-user:hover {
+    background-color: #777777;
+}
+
+/* :HOVER-COLOR-CHANGE of Header-Navigation bar-BUTTONS: "Search LENS" */
+
+.header-wrapper > .navigation-buttons-wrapper > .nav-btn-search:focus {
+    outline: none;
+}
+
+.header-wrapper > .navigation-buttons-wrapper > .nav-btn-search:hover {
+    color: rgb(134, 208, 173)
+}

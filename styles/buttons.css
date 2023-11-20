@@ -1,0 +1,155 @@
+
+/* Header - Navigation bar - Right side BUTTONS:  "Create" / "Log In" / "Search icon" "Sign Up" */
+
+.header-wrapper > .navigation-buttons-wrapper > .nav-btn-user {
+    width: 100px;
+    height: 48px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.1em;
+    background-color: rgb(55, 56, 63);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* "CREATE" button + chevron */
+
+.header-wrapper > .navigation-buttons-wrapper > .nav-btn-user > .nav-btn-chevron {
+    padding-left: 8px;
+    padding-top: 3px;
+    align-self: center;
+    font-size: 1em;
+    color: rgb(71, 206, 114);
+    cursor: pointer;
+}
+
+
+/* "Search LENS" button icon */
+
+.header-wrapper > .navigation-buttons-wrapper > .nav-btn-search {
+    width: 50px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #70768f; */
+    color: rgb(112, 118, 143);
+    font-weight: 500;
+    font-size: 2em;
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* GREY COLOR #7A7C8C color: rgb(122, 124, 140); */
+/* CodePen website  GREY COLOR - "SEARCH LENS icon" 228.39deg 12.25% 50.39%; 112 118 143 #70768f */
+
+
+/* :HOVER-COLOR
+-Header-Navigation bar-BUTTONS: 
+"Create" / "Log In" / "Sign Up" */
+
+.header-wrapper > .navigation-buttons-wrapper > .nav-btn-user:focus {
+    outline: none;
+}
+
+.header-wrapper > .navigation-buttons-wrapper > .nav-btn-user:hover {
+    background-color: #777777;
+}
+
+
+/* Header-NAVIGATION-BUTTONS-:HOVER-COLOR- 
+"Search LENS-icon" */
+
+.header-wrapper > .navigation-buttons-wrapper > .nav-btn-search:focus {
+    outline: none;
+}
+
+.header-wrapper > .navigation-buttons-wrapper > .nav-btn-search:hover {
+    color: rgb(133, 207, 173); 
+}
+
+
+/* .Page-container-CONTENT-WRAPPER-BUTTONS (with ver)  
+"Sign Up for Free" + "Learn More" */
+
+.page-container > .content-wrapper > .buttons-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* "SIGN UP FOR FREE" Button */
+
+.page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper > .sign-up-free {
+    background-color: rgb(71, 206, 114);
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    width: 225px;
+    height: 60px;
+    cursor: pointer;
+}
+
+/* "SIGN UP FOR FREE" Button :HOVER effect  */
+
+.page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper > .sign-up-free:focus {
+    outline: none;
+}
+.page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper > .sign-up-free:hover {
+    background-color: #248b46;
+    color: #ffffff;
+}
+
+/* "LEARN MORE" Button */
+
+.page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper > .learn-more {
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 1.5em;
+    font-weight: 200;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    width: 165px;
+    height: 60px;
+    cursor: pointer;
+}
+
+/* "LEARN MORE" Button HOVER effect  */
+
+.page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper > .learn-more:focus {
+    outline: none;
+}
+
+.page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper > .learn-more:hover {
+    background-color: rgb(120, 120, 120);
+    border: 2px solid rgb(120, 120, 120);
+    border-radius: 4px;
+ }
+
+
+ 
+/* FOOTER-BUTTONS- :HOVER  */
+
+.footer-wrapper > .codepen-for-wrapper:focus {
+    outline: none;
+}
+.footer-wrapper > .codepen-for-wrapper:hover {
+    background-color: #777777;
+}

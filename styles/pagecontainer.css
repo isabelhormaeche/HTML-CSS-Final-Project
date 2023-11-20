@@ -1,0 +1,169 @@
+
+/* -------------------PAGE-CONTAINER " a CodePen project EXAMPLE" with two PARAGRAPHS, two BUTTONS and one IMAGE */
+
+
+.page-container {
+    max-width: 100%;
+    height: 600px;
+    color: #a6a5a5;
+    background-image: linear-gradient(to top left, black, #4b5b6c); /* some other options in helpers.css */
+
+    /* FLEXBOX - instead of grid, for latter use of flex-direction: column in the Mediaquaries */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+/*----CONTENT-WRAPPER start here - Two paragrapahs + Two buttons*/
+    
+.page-container > .content-wrapper {
+    width: 650px;
+    padding: 60px 40px 60px 60px;
+}
+
+
+.page-container > .content-wrapper > .paragraphs-wrapper > .paragraph1 {
+    line-height: 1.15;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.page-container > .content-wrapper > .paragraphs-wrapper > .paragraph1 > .bold {
+    font-weight: 700;
+    color:white;
+}
+
+.page-container > .content-wrapper > .paragraphs-wrapper > .paragraph2 {
+    line-height: 1.25;
+    font-size: 2em;
+    font-weight: 300;
+    padding: 20px 0px;
+    color: #a6a5a5;
+}
+
+
+/* GRID- BUTTONS (with :hover)  "Sign Up for Free" + "Learn More" */
+
+.page-container > .content-wrapper > .buttons-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* "SIGN UP FOR FREE" Button */
+
+.page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper > .sign-up-free {
+    background-color: rgb(71, 206, 114);
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    width: 225px;
+    height: 60px;
+}
+
+/* "SIGN" Button HOVER effect  */
+
+.page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper > .sign-up-free:focus {
+    outline: none;
+}
+.page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper > .sign-up-free:hover {
+    background-color: #248b46;
+    color: #ffffff;
+}
+
+
+/* "LEARN MORE" Button */
+
+.page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper > .learn-more {
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 1.5em;
+    font-weight: 200;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    width: 165px;
+    height: 60px;
+}
+
+/* "LEARN MORE" Button HOVER effect  */
+
+.page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper > .learn-more:focus {
+    outline: none;
+}
+
+.page-container > .content-wrapper > .buttons-wrapper > .btn-wrapper > .learn-more:hover {
+    background-color: rgb(120, 120, 120);
+    border: 2px solid rgb(120, 120, 120);
+    border-radius: 4px;
+ }
+
+
+/*----CONTENT-WRAPPER end here-----*/
+
+
+
+/*----CODEPEN-EXAMPLE-WRAPPER start here - LINK + SCRRENSHOT-----*/
+
+
+/* Link - "This is CodePen Projects!"" */
+
+.page-container > .codepen-example-wrapper > .codepen-link-wrapper {
+    padding-left: 12px;
+    color: #ffffff;
+}
+.page-container > .codepen-example-wrapper > .codepen-link-wrapper > .codepen-link {
+    text-decoration: none;
+    color: rgb(118, 218, 255);
+
+}
+
+
+.page-container > .codepen-example-wrapper  {
+    width: 550px;
+    height: 480px;
+    max-width: 600px;
+    padding-top: 105px;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+
+.page-container > .codepen-example-wrapper > .codepen-image-wrapper > .codepen-image-myproject {
+    margin-left: 8px;
+    width: fit-content;
+    padding: 0px 10px 0px 0px;
+    /* box-shadow: -10px 10px 3px 0px rgba(0, 0, 0, 0.2); */
+
+}
+
+
+.page-container > .codepen-example-wrapper > .codepen-image-wrapper > .codepen-image-myproject > .screenshot {
+    display:block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    object-fit: cover;
+}
+
+
+
+
+
+
+

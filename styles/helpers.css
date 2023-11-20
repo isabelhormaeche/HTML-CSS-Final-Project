@@ -1,0 +1,56 @@
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
+
+
+:root {
+    
+    /*      EMOJI 👋"Waving hand" Unicode: &#128075      */
+    
+    
+    /* ...................COLORS ........................*/
+
+    color: #ffffff;
+    color: rgb(235, 235, 32); 
+    color: #47ce72;    color: rgb(69, 207, 112);
+    color: rgb(118, 218, 255);
+    color: rgb(112, 118, 143);
+    color: #70768f;
+    background-color: #777777;
+    color: rgb(133, 207, 173); 
+    background-image: linear-gradient(to top left, black, #4b5b6c); /* used in page-container background color */
+   
+    /* FOOTER color-scheme:  */
+    background: rgb(54, 56, 64); 
+    color: #ffffff;
+    border: 1px solid rgb(96, 96, 96); 
+    color: #ffffff; 
+    background-color: #777777;
+
+
+
+    /* other .................................color OPTIONS*/
+    color: #1a1b1f;
+    color: #708090;
+    color: #6A5ACD;
+    
+    /*other LINEAR GRADIENT COLOR options */
+    background: linear-gradient(to left, #000000, #656565);
+    background-image: linear-gradient(90deg, black, #708090);
+    background-image: linear-gradient(to top left, black, #708090);
+    background: radial-gradient(circle at 10% 20%, #455666 0%, #222222 90%); /* FROM HERE https://gradients.shecodes.io/gradients/58 */
+    background: radial-gradient(circle at 10% 20%, rgb(69, 86, 102) 0%, rgb(34, 34, 34) 90%);
+
+
+
+
+
+}
+
+
+
+
+
+
+
